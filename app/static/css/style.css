@@ -32,6 +32,38 @@ body.dark-mode .stat-card {
 }
 
 body.dark-mode .stat *,
+
+
+/* Correção do modo escuro */
+body.dark-mode,
+body.dark-mode .layout,
+body.dark-mode .sidebar,
+body.dark-mode main {
+  background-color: #101827 !important;
+  color: #f1f5f9 !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .stat,
+body.dark-mode .hero,
+body.dark-mode .modal,
+body.dark-mode dialog {
+  background-color: #1e293b !important;
+  color: #f1f5f9 !important;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: #334155 !important;
+  color: #ffffff !important;
+  border-color: #64748b !important;
+}
+
+body.dark-mode .card *,
+body.dark-mode .stat * {
+  color: #f1f5f9 !important;
+}
 body.dark-mode .stat-card * {
     color: #f1f5f9 !important;
 }
