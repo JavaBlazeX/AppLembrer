@@ -23,3 +23,15 @@ body.dark-mode select {
   color: #ffffff !important;
   border-color: #64748b !important;
 }
+
+/* Melhoria 1: contraste dos cartões no modo escuro */
+body.dark-mode .stat,
+body.dark-mode .stat-card {
+    background: #273449 !important;
+    color: #f1f5f9 !important;
+}
+
+body.dark-mode .stat *,
+body.dark-mode .stat-card * {
+    color: #f1f5f9 !important;
+}
